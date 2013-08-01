@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../../TEST/.idea/TEST.iml" filepath="$PROJECT_DIR$/../../TEST/.idea/TEST.iml" />
+      <module fileurl="file://$USER_HOME$/holiday_study/tee_koala/.idea/google_places.iml" filepath="$USER_HOME$/holiday_study/tee_koala/.idea/google_places.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/queue_url.iml" filepath="$PROJECT_DIR$/.idea/queue_url.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../trina/.idea/trina.iml" filepath="$PROJECT_DIR$/../../trina/.idea/trina.iml" />
+    </modules>
+  </component>
+</project>
+

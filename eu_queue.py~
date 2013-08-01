@@ -1,0 +1,25 @@
+# -*- coding:utf-8 -*-
+import json
+import time
+import redis
+__author__ = 'tea'
+class EuQueue(object):
+    def __init__(self, name, **redis_kwargs):
+        self._db = redis.Redis(**redis_kwargs)
+        self.name = name
+
+    def put(self, content, url):
+        items = dict()
+        items['url'] = url
+        items['content'] = content
+        items['crawl_time'] = time.ctime()
+        items['urls'] = tuple()
+        #可以加上其他的key
+        print items['content']
+        print items ,type(items)
+        # key = json.dumps(items)
+        self._db.rpush(self.name, items)
+
+
+
+
